@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    padding-left: 6%;
+    height: 8vh;
+    background-color: rgb(255, 119, 0);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header div {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+nav {
+    background-color: black;
+    color: white;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+}
+
+nav h1 {
+    margin-left: 7%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.navbar a {
+    margin-right: 30px;
+}
+
+.bg {
+    height: 82vh;
+    background-image: url(../img/background-02.jpg);
+    background-size: cover;
+    background-position: none;
+}
+
+.conteudo {
+    margin-left: 7%;
+    padding-top: 6%;
+    font-size: 24px;
+    opacity: 1;
+}
+
+.conteudo h2 {
+    color: rgb(255, 0, 0);
+    text-shadow: 10px;
+    font-weight: bolder;
+}
+
+.conteudo p {
+    color: white;
+    margin: 1% 0;
+}
+
+.conteudo button {
+    margin-top: 1%;
+    width: 180px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: rgb(255, 119, 0);
+
+    border: 2px solid black;
+}
+
+.servicos {
+    height: 100vh;
+    color: rgb(255, 119, 0);
+}
+
+.servicos h2 {
+    padding-top: 3%;
+    text-align: center;
+    font-size: 35px;
+
+}
+
+.container {
+    margin: 7% 10%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.box {
+    border: 2px solid red;
+    border-radius: 20px;
+    padding: 25px;
+    width: 250px;
+    text-align: center;
+}
+
+.box>p {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.box-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
