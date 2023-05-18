@@ -28,11 +28,28 @@ nav {
     align-items: center;
 }
 
+.links-redes {
+    display: flex;
+    align-items: center;
+}
+
+.links-redes a {
+    margin-right: 1rem
+}
+
 .links a {
     text-decoration: none;
     color: white;
     font-size: 22px;
+
 }
+
+.links-logo {
+    width: 2rem;
+    height: 2rem;
+}
+
+
 
 nav h1 {
     margin-left: 7%;
@@ -91,7 +108,10 @@ nav h1 {
     background-image: url(../img/background-02.jpg);
     background-size: cover;
     background-position: center;
-    /* width: 100vw; */
+    -webkit-box-shadow: 0px 0px 5px 7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 5px 7px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 5px 7px rgba(0, 0, 0, 0.75);
+
 }
 
 .conteudo {
@@ -148,7 +168,11 @@ nav h1 {
     width: 250px;
     text-align: center;
     color: black;
-    margin: 1% 0;
+    margin: 3% 0;
+    -webkit-box-shadow: 10px 10px 15px 10px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 15px 10px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 15px 10px rgba(0, 0, 0, 0.75);
+
 }
 
 .box>p {
@@ -182,7 +206,7 @@ nav h1 {
 }
 
 .team-bg {
-    height: 100%;
+    height: 80vh;
     background-color: rgb(0, 0, 255, 0.1);
 }
 
@@ -210,6 +234,9 @@ nav h1 {
     flex-direction: column;
     padding: 30px;
     background-image: linear-gradient(to right, rgb(0, 0, 255, 0.2), rgb(0, 153, 255, 0.2));
+    -webkit-box-shadow: 7px 7px 10px 5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 7px 7px 10px 5px rgba(0, 0, 0, 0.75);
+    box-shadow: 7px 7px 10px 5px rgba(0, 0, 0, 0.75);
 }
 
 .team-img {
@@ -292,12 +319,7 @@ input {
     }
 
 
-    /* .inputs {
-        display: flex;
-        flex-flow: column wrap;
-        border: 2px solid black;
-        padding: 30px 15px;
-    } */
+
 
     input {
         width: 300px;
