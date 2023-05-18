@@ -94,7 +94,7 @@ nav h1 {
 
 }
 
-.container {
+.container-box {
     margin: 5% 10%;
     display: flex;
     flex-wrap: wrap;
@@ -108,7 +108,7 @@ nav h1 {
     width: 250px;
     text-align: center;
     color: black;
-
+    margin: 2% 0;
 }
 
 .box>p {
@@ -117,6 +117,7 @@ nav h1 {
     margin-top: 10px;
     margin-bottom: 20px;
 }
+
 
 .box-2 {
     display: flex;
@@ -138,4 +139,99 @@ nav h1 {
     border: 2px solid black;
     border-radius: 20px;
     margin: 2% 0;
+}
+
+.team-bg {
+    height: 90vh;
+    background-color: rgb(0, 0, 255, 0.1);
+}
+
+.team-bg h2 {
+    text-align: center;
+    padding: 4% 0;
+}
+
+.container-team {
+    margin: 0 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: wrap;
+}
+
+.team-box {
+    height: 300px;
+    border-radius: 40px;
+    margin: 2% 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    background-image: linear-gradient(to right, rgb(0, 0, 255, 0.2), rgb(0, 153, 255, 0.2));
+}
+
+.team-img {
+    border: 1px solid black;
+    border-radius: 100px;
+}
+
+.name {
+    background: blue;
+    color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 12px;
+    font-size: 1.2rem;
+}
+
+.cargo {
+    font-size: 1.7rem;
+    color: white;
+    text-shadow: 2px 1px black;
+}
+
+.contact {
+    height: 80vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact h3 {
+    margin: 2% 0;
+    font-size: 28px;
+    border-bottom: 3px solid blue;
+}
+
+.inputs {
+    display: flex;
+    flex-flow: column wrap;
+    border: 2px solid black;
+    padding: 30px 15px;
+}
+
+input {
+    width: 400px;
+    height: 40px;
+    margin: 2% 0;
+    font-size: 18px;
+
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-form {
+    background-color: blue;
+    color: white;
+    border: 1px solid black;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+
 }
