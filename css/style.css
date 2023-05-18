@@ -62,8 +62,8 @@ nav h1 {
 }
 
 .conteudo h2 {
-    color: rgb(255, 0, 0);
-    text-shadow: 10px;
+    color: orangered;
+    text-shadow: 2px 2px black;
     font-weight: bolder;
 }
 
@@ -84,28 +84,31 @@ nav h1 {
 
 .servicos {
     height: 100vh;
-    color: rgb(255, 119, 0);
 }
 
 .servicos h2 {
     padding-top: 3%;
     text-align: center;
     font-size: 35px;
+    color: rgb(255, 119, 0);
 
 }
 
 .container {
-    margin: 7% 10%;
+    margin: 5% 10%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 
 .box {
-    border: 2px solid red;
+    border: 3px solid rgb(255, 119, 0);
     border-radius: 20px;
     padding: 25px;
     width: 250px;
     text-align: center;
+    color: black;
+
 }
 
 .box>p {
@@ -119,4 +122,20 @@ nav h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.confira {
+    text-align: center;
+    font-size: 33px;
+    color: rgb(255, 119, 0);
+}
+
+.confira button {
+    width: 200px;
+    height: 40px;
+    background-color: orangered;
+    color: white;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 2% 0;
 }
